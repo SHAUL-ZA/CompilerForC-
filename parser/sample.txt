@@ -1,0 +1,23 @@
+int gcd(int u, int v)
+{
+    if (v == 0) return u;
+    else return gcd(v, u - u / v * v);
+}
+
+/* Comentario de prueba para ser ignorado */ 
+void main(void)
+{
+    int x; int y;
+    if(x != y){
+      x + 23;
+    }
+    x = 2;
+    input(); 
+    x + y;
+    y < x;
+    y - z; output(gcd(x, y));
+    x + 2;
+} 
+
+
+/* Comentario de prueba para ser ignorado */ 
