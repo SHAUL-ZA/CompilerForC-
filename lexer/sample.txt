@@ -1,0 +1,15 @@
+int main() { 
+    int x = 10;
+    int y = 20;
+    if (x != y) {
+      x = x + y * 2;
+    } else {
+      x = x / y - 1;
+    }
+    /*process */   
+    while (x >= 0) {
+      x = x - 1;
+    }
+    return 0;
+  }
+

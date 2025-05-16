@@ -1,0 +1,24 @@
+int main() {
+    /* Error: identificador invalido (mezcla numero/letras) */
+    int numero1 = 123abc;
+
+    /* Error: floats no permitidos en C- */
+    float valor = 12.34;
+
+    /* comillas simples no soportadas */
+    char simbolo = '@';
+
+    if (numero >= 100) {
+        /* simbolo '#' invalido */
+        #haz_algo();
+    }
+
+    /* operador mal formado */
+    !=!
+
+    /* '&' no esta definido en C- */
+    &fd = 50;
+
+    /* Error: nombre de variable no puede iniciar con numero */
+    int 9variable = 20;
+}
