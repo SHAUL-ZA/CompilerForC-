@@ -1,0 +1,20 @@
+int v[2]; /* Arreglo */
+int main(int c, int z){ /* Si main no existe, error*/
+  v[2]; /* Si da un valoy mayor al declarado, error (acepta identificadores que estén dentro del rango)*/
+  int x;
+  int y;  
+  y = 2; /* Si no se declara, error */
+  x = 2; 
+  x + y; /* Si se operan cosas no inicializadas, error */ 
+  input(); /* Ignora llamadas nativas (input | Output)*/
+  suma(x, y); /* Si se le da mas argumentos que parametros declarados, error*/
+  return 1; /* Si no devuelve algo, error */ 
+} 
+
+int suma(int num, int numero){ 
+  return num + numero; /* Si son los mismos parametros de la función, no hay error de declaracion*/
+}  
+
+void gen(){ 
+  return; /* Si devuelve algo, error (puede no tener return) */
+} 
