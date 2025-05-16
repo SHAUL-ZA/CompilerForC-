@@ -39,9 +39,8 @@ cminus-compiler/
 
 
 ## To Do
-.[!IMPORTANT]. 
-
-_Final code generation (assembly)._
+> [!IMPORTANT]
+> _Final code generation (assembly)._
 
 ##  Author
 
