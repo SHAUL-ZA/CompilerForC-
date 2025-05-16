@@ -1,0 +1,54 @@
+/* Programa para manejar temperaturas en C-*/
+
+int obtenerMax1(int arr[], int n) {
+    int i = 0;
+    int max = arr[0];
+    while (i < n) {
+      if (arr[i] > max) {
+        max = arr[i];
+      }
+      i = i + 1;
+    }
+    return max;
+  }
+  
+  int obtenerMin(int arr[], int n) {
+    int i = 0;
+    int min = arr[0];
+    while (i < n) {
+      if (arr[i] < min) {
+        min = arr[i];
+      }
+      i = i + 1;
+    }
+    return min;
+  }
+  
+  void imprimirPromedio(int arr[], int n) {
+    int i = 0;
+    int suma = 0;
+    while (i < n) {
+      suma = suma + arr[i];
+      i = i + 1;
+    }
+    int promedio = suma / n;
+    /*Aqui se imprimiria el promedio*/
+  }
+  
+  int main() {
+    int temperaturas[7];
+    temperaturas[0] = 23;
+    temperaturas[1] = 25;
+    temperaturas[2] = 20;
+    temperaturas[3] = 19;
+    temperaturas[4] = 22;
+    temperaturas[5] = 21;
+    temperaturas[6] = 24;
+  
+    int maximo1 = obtenerMax(temperaturas, 7);
+    int minimo = obtenerMin(temperaturas, 7);
+    imprimirPromedio(temperaturas, 7);
+  
+    return 0;
+  }
+  
